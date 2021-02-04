@@ -1,44 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-    <style>
-    p {
-        word-break: break-all;
-        white-space: normal;
-    }
-
-    .tworows {
-      columns: 2;
-      -webkit-columns: 2;
-      -moz-columns: 2;
-      display: inline-block;
-      text-align:left;
-      list-style-type: circle;
-    }
-    
-    </style>
 
         <meta charset="UTF-8">
         <title >Roman Nunez</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" type="text/css" href="./dist/css/main.css">
     </head>
     <body>
+
+      <header>
+        <span class="logo">My WebSite</span>
+        <a id="toggleMenu">Menu<a></a>
         <nav>
             <ul >
               <li><a href="index.html">Home</a></li>
               <li><a href="resume.html">Resume</a></li>
               <li><a href="contact.html">Contact</a></li>
             </ul>
+            
+          </nav>
+       
+       
+        </header>
         <main> 
-            <h1 style="text-align:center">Roman Nunez</h1>
-              <div style="text-align:center">
+            <h1 s>Roman Nunez</h1>
+              <div >
                 <a href="..." target="_blank" rel="noopener">LinkedIn</a>
                   &#x25CF;
                   Riverside, IL
               </div>
 
-        <article >
-          <h2 style="text-align:center"> Full Stack Web and Hybrid Mobile Applications Developer</h2>
+        
+          <h2 > Full Stack Web and Hybrid Mobile Applications Developer</h2>
           <p >Full stack web and hybrid mobile applications developer specializing in full stack JavaScript application and architectures. Experienced  
             in all stages of the development life cycle, well versed in numerous programming languages. </p>
           <ul>
@@ -46,48 +40,58 @@
             </li>
             <li>Outstanding leadership abilities; able to coordinate and direct all phases of project-based efforts.</li>
           </ul>
-        </article>
+       
 
-        <article style="text-align:center">
+        
           <h3 >Core Competencies</h3>
-          <ul class="tworows">  
+          <ul >  
            <li>Full Stack Development</li>
            <li>Strong Analytical Skills</li>
            <li>Prioritizes Tasks</li>
            <li>Hybrid Mobile Development</li>
            <li>Savvy Problem Solver</li>
            <li>Strong Leadership Skills</li>
-          </ul>
-        </article>
-
-        <article>
-          <h3 style="text-align:center">Certifications / Technical Proficiencies</h3>
+          </ul>    
+       
+          <h3 >Certifications / Technical Proficiencies</h3>
           <ul>
             <li><I>Computer Languages:</I> C++, C#</li>
             <li><I>3D Design and Modeling:</I> Maya</li>
             <li><I>Platforms:</I> Windows</li>
           </ul>
-        </article>
-
-        <article>
-          <h3 style="text-align:center">  Professional Experience </h3>
+        
+          <h3 >  Professional Experience </h3>
           <p>Diaz Transportation - Cicero IL     Oct 2015 - Nov 2019</p>
           <ul>
             <li>Dispatching trucks </li>
             <li>Book keeping on Microsoft Excel</li>
           </ul>
-        </article>
-        <article>
-          <h3 style="text-align:center">Education</h3>
+
+          <h3 >Education</h3>
           <p> DePaul University, Chicago, IL   - June 2015
             <br><strong>Bachelor of Science</strong>
             <br>
             <br>Morton College, Cicero, IL   - May 2011
             <br><strong>Associate in Science</strong>
           </p>
-        </article>
+
       </main>  
-          </nav>
+
      
+                  <script>
+
+          var toggleMenu = document.getElementById('toggleMenu');
+          var nav = document.querySelector('nav');
+          toggleMenu.addEventListener(
+            'click',
+            function(){
+              if(nav.style.display=='block'){
+                nav.style.display='none';
+              }else{
+                nav.style.display='block';
+              }
+            }
+          );
+        </script>
     </body>
 </html>

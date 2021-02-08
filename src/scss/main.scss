@@ -15,7 +15,7 @@
   *{
   font-family: 'Open Sans', sans-serif;
   }
-  header {
+  header{
   height: 50px;
   background: #000;
   color: #fff;
@@ -27,11 +27,11 @@
   font-weight: bold;
   }
   
-  nav {
+  nav{
   float: right;
   }
   
-  nav ul {
+  nav ul{
   margin: 0;
   padding: 0;
   list-style: none;
@@ -63,9 +63,7 @@
   width: 960px;
   
   /* For smaller screens to not exceed the max screen width */
-  max-width: 90%;
-
- 
+  max-width: 90%; 
   }
 
   #toggleMenu {
@@ -106,7 +104,6 @@
 
       
   }
-
   h2{
     text-align:center;
    }

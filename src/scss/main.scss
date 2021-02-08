@@ -64,6 +64,8 @@
   
   /* For smaller screens to not exceed the max screen width */
   max-width: 90%;
+
+ 
   }
 
   #toggleMenu {
@@ -101,6 +103,8 @@
         display: block;
         border-bottom: 1px solid #777;
       }
+
+      
   }
 
   h2{
@@ -119,6 +123,8 @@
     display: inline-block;
     text-align: left;
     list-style-position: inside;
+    
+    margin-top:-20px;
   }
   b
   {
@@ -128,6 +134,11 @@
   { 
     display: inline-block; 
     width: 250px;
+    margin-top:-20px;
+   }
+
+   p{
+    margin-top:-20px;
    }
    
 
